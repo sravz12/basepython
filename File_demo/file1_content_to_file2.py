@@ -1,0 +1,7 @@
+f1=open('File1','r')
+f2=open('File2','w')
+lst=f1.readlines()
+print(lst)
+f2.writelines(lst)
+f1.close()
+f2.close()
